@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jangdongjae/C-git/hg20'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C30, symSize: 0x128 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C30, symSize: 0x128 }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _my_strlen1, symObjAddr: 0x128, symBinAddr: 0x100003D58, symSize: 0x58 }
+  - { offsetInCU: 0xBB, offset: 0xBB, size: 0x8, addend: 0x0, symName: _my_strlen2, symObjAddr: 0x180, symBinAddr: 0x100003DB0, symSize: 0x64 }
+  - { offsetInCU: 0xFF, offset: 0xFF, size: 0x8, addend: 0x0, symName: _my_strcmp, symObjAddr: 0x1E4, symBinAddr: 0x100003E14, symSize: 0xE4 }
+...
